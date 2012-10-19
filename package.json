@@ -1,0 +1,35 @@
+{
+  "name": "grep-reduce",
+  "id": "grep-reduce",
+  "version": "0.0.1",
+  "description": "Grep for reducible sequences",
+  "keywords": [ "grep-reduce" ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/grep-reduce",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/grep-reduce.git",
+    "web": "https://github.com/Gozala/grep-reduce"
+  },
+  "bugs": {
+    "url": "http://github.com/Gozala/grep-reduce/issues/"
+  },
+  "dependencies": {
+    "reducers": ">=0.0.3",
+    "pattern-exp": ">=0.0.2",
+    "match-score": ">=0.0.1"
+  },
+  "devDependencies": {
+    "test": ">=0.4.4",
+    "repl-utils": ">=1.0.0"
+  },
+  "main": "./grep-reduce.js",
+  "scripts": {
+    "test": "node test/test-all.js",
+    "repl": "node node_modules/repl-utils"
+  },
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "https://github.com/Gozala/grep-reduce/License.md"
+  }]
+}
