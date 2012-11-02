@@ -1,7 +1,7 @@
 {
   "name": "grep-reduce",
   "id": "grep-reduce",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Grep for reducible sequences",
   "keywords": [ "grep-reduce" ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
@@ -15,7 +15,7 @@
     "url": "http://github.com/Gozala/grep-reduce/issues/"
   },
   "dependencies": {
-    "reducers": ">=0.0.3",
+    "reducers": "git://github.com/Gozala/reducers.git#experiment/future",
     "pattern-exp": ">=0.0.2",
     "match-score": ">=0.0.1"
   },
