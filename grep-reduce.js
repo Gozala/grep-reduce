@@ -1,11 +1,7 @@
-/* vim:set ts=2 sw=2 sts=2 expandtab */
-/*jshint asi: true undef: true es5: true node: true browser: true devel: true
-         forin: true latedef: false globalstrict: true*/
-
 "use strict";
 
-var reducers = require("reducers/core"),
-    filter = reducers.filter, map = reducers.map
+var filter = require("reducers/filter")
+var map = require("reducers/map")
 var Pattern = require("pattern-exp")
 var score = require("match-score")
 

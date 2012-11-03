@@ -1,9 +1,11 @@
 {
   "name": "grep-reduce",
   "id": "grep-reduce",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Grep for reducible sequences",
-  "keywords": [ "grep-reduce" ],
+  "keywords": [
+    "grep-reduce"
+  ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
   "homepage": "https://github.com/Gozala/grep-reduce",
   "repository": {
@@ -15,21 +17,26 @@
     "url": "http://github.com/Gozala/grep-reduce/issues/"
   },
   "dependencies": {
-    "reducers": ">=0.0.3",
+    "reducers": "~1.0.0",
     "pattern-exp": ">=0.0.2",
     "match-score": ">=0.0.1"
   },
   "devDependencies": {
-    "test": ">=0.4.4",
+    "test": "~0.5.0",
+    "phantomify": "~0.x.0",
     "repl-utils": ">=1.0.0"
   },
   "main": "./grep-reduce.js",
   "scripts": {
-    "test": "node test/test-all.js",
+    "test": "npm run test-node && npm run test-browser",
+    "test-browser": "node ./node_modules/phantomify/bin/cmd.js ./test/index.js",
+    "test-node": "node ./test/index.js",
     "repl": "node node_modules/repl-utils"
   },
-  "licenses": [{
-    "type" : "MIT",
-    "url" : "https://github.com/Gozala/grep-reduce/License.md"
-  }]
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Gozala/grep-reduce/License.md"
+    }
+  ]
 }
