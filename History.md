@@ -1,5 +1,9 @@
 # Changes
 
+## 0.2.0 / 2012-11-24
+
+  - Update all dependencies
+
 ## 0.1.0 / 2012-11-01
 
   - Update to reducers 1.0.0

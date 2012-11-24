@@ -1,10 +1,13 @@
 {
   "name": "grep-reduce",
   "id": "grep-reduce",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Grep for reducible sequences",
   "keywords": [
-    "grep-reduce"
+    "grep",
+    "reduce",
+    "reducible",
+    "stream"
   ],
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
   "homepage": "https://github.com/Gozala/grep-reduce",
