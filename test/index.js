@@ -1,6 +1,6 @@
 "use strict";
 
-var grep = require("../grep-reduce")
+var grep = require("../grep")
 var into = require("reducers/into")
 
 var cities = {

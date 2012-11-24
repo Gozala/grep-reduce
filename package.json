@@ -26,7 +26,7 @@
     "phantomify": "~0.x.0",
     "repl-utils": ">=1.0.0"
   },
-  "main": "./grep-reduce.js",
+  "main": "./grep.js",
   "scripts": {
     "test": "npm run test-node && npm run test-browser",
     "test-browser": "node ./node_modules/phantomify/bin/cmd.js ./test/index.js",
